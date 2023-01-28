@@ -18,9 +18,9 @@ r1 = random(0, 170);
 r2 = random(100, 800);
 r3 = random(400, 3000);
 
-  tail.write(r1);             
-  delay(r2);
-  tail.write(0);             
-  delay(r3);                    
+  tail.write(r1); //sets servo position, for this example 0>170           
+  delay(r2); //random delay for tail movemnt time
+  tail.write(0);// sets tail to nuteral position             
+  delay(r3); // random delay before next movement                    
 
 }
